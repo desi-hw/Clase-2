@@ -1,0 +1,13 @@
+/*Huitrón Was-Szabo Elizabeth Desireé
+Ejercicio 11 parte 2*/
+#include <stdio.h>
+void main() 
+{
+  char c;
+  printf("Ingrese una letra minúscula: \n");
+  scanf("%c", &c);
+  if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') 
+    printf("El carácter '%c' es una vocal.\n", c);
+  else
+   printf("El carácter '%c' no es una vocal.\n", c);
+ }
